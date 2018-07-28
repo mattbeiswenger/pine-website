@@ -1,0 +1,283 @@
+#logo {
+    margin: 20px;
+}
+
+#hero {
+    background: url("Images/PineTreeBackground.jpg");
+    height: 600px;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#short-header {
+    background-color: #368C72;
+}
+
+#hero-text {
+    width: 500px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#short-header h1 {
+    text-align: center;
+    font-size: 4em;
+    line-height: 0;
+    margin-bottom: 50px
+}
+
+
+#hero-text h1 {
+    color: #4E4C43;
+    line-height: 0;
+    font-size: 4em;
+}
+
+#hero-text p {
+    font-size: 1.5em;
+    padding-top: 20px;
+    width: 75%;
+    margin: 0 auto;
+    line-height: 1.5em
+}
+
+nav {
+    text-align: center;
+    padding-top: 20px;
+}
+
+nav ul {
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4E4C43;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #4E4C43;
+}
+
+#short-header nav {
+    width: 700px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+main {
+    margin-bottom: 200px;
+}
+
+#intro, h2 {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-align: center;
+    width: 50%;
+    margin: 75px auto;
+}
+
+#intro a {
+    text-decoration: none;
+    color: #4E4C43;
+}
+
+#intro a:hover {
+    border-bottom: 2px solid #4E4C43;
+}
+
+#logos {
+    margin: 0 auto;
+    width: 840px;
+    height: 400px;
+}
+
+#logos p {
+    width: 200px;
+    padding-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+#logos div {
+    margin: 40px;
+    width: 200px;
+    float: left;
+}
+
+table {
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 20px;
+    width: 700px;
+    border: 1px solid #000000;
+}
+
+#fullness-rating {
+    text-align: center;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 10px;
+}
+
+footer {
+    padding-top: 150px;
+    background-color: #368C72;
+    clear: both;
+    position: relative;
+    height: 250px;
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 50px;
+    width: 250px;
+}
+
+footer .social {
+    display: inline-block;
+    float: right;
+}
+
+
+
+footer div {
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+footer li {
+    line-height: 25px
+}
+
+.footer-title {
+    margin-bottom: 10px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #4E4C43;
+}
+
+footer a:hover {
+    border-bottom: 2px solid #4E4C43;
+}
+
+footer .social a:hover {
+    border: none;
+}
+
+/* USED ON TREES PAGE */
+.thumb {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    height: 200px;
+    box-shadow: 0 0 15px #000000;
+    border-radius: 15px;
+}
+
+.thumb img {
+    float:left;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.description {
+    float:left;
+    background-color: #7ECBA1;
+    width: 550px;
+    height: 200px;
+    border-top-right-radius:15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.description a {
+    text-decoration: none;
+}
+
+.description p {
+    color: #000;
+    width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.description span {
+    font-size: .9em
+}
+
+.description a {
+    text-decoration: none;
+    color: #AA0000;
+    font-size: .9em
+}
+
+.description a:hover {
+    border-bottom: 2px solid #AA0000;
+}
+
+/* FORM STYLES */
+form {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+
+label {
+    float: left;
+    width: 150px;
+    display: block;
+}
+
+input {
+    display: block;
+    margin-bottom: 30px;
+}
+
+legend {
+    margin-bottom: 20px;
+}
+
+fieldset {
+    margin-bottom: 30px;
+}
+
+input[type="submit"] {
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+video {
+    margin: 0 auto;
+    display: block;
+}

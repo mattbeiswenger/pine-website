@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Order</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="styles.css">
+        <meta charset="utf-8">
+        <!--[if lt IE 9]>
+        <script src="html5shiv.js"></script>
+        <![endif]-->
+    </head>
+    <body>
+        <header id="short-header"> 
+            <a href="index.html" title="Home page"><img id="logo" src="Images/Logo.png" title ="pine. logo" alt="pine. logo" width="75" height="75"></a>
+            <h1>Pine.</h1>
+            <nav>
+            <ul>
+                <li><a href="index.html" title="Home page">Home</a></li>
+                <li><a href="trees.html" title="View our selection of trees">Trees</a></li>
+                <li><a href="order.html" title="Order your tree">Order</a></li>
+                <li><a href="process.html" title="Understand more about the nursery process at Pine.">Our Process</a></li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <h2>Use the corresponding order number of the desired tree. <br> Required fields are marked with *</h2>
+            <form action="http://www.mattbeiswenger.me/publish/confirmation.php" method="post"> 
+                
+                
+                <label for="firstName">*First Name:</label> 
+                <input type="text" required="required" id="firstName" name="firstName">
+                
+                <label for="lastName">*Last Name:</label>
+                <input type="text" required="required" id="lastName" name="lastName">
+                
+                <label for="email">*E-mail:</label>
+                <input type="email" required="required" size="35" id="email" name="email">
+                
+                <label for="phone">Phone:</label>
+                <input type="text" id="phone" name="phone">
+                
+                <label for="orderNumber">*Order #:</label>
+                <input required="required" type="text" id="orderNumber" name="orderNumber" min="6">
+                
+                <fieldset>
+      	        <legend>*Shipping:</legend>
+                   <label for="shipping">Standard (5 - 7 Days)</label>
+	               <input type="radio" name="shipping" value="standard" required="required">
+	               <label for="shipping">2 Day</label>
+                   <input type="radio" name="shipping" value="2day" required="required">
+                </fieldset>
+                    
+                <label for="delNotes">Notes for delivery:</label>
+                <textarea id="delNotes" name="delNotes" rows="2" cols="30"></textarea>
+                
+                <input type="submit" value="Submit">
+            </form>
+        </main>
+        <footer>
+            <div>
+                <ul>
+                    <li class="footer-title">CONTACT</li>
+                    <li>Email: <a href="mailto:Pine.co@gmail.com">Pine.co@gmail.com</a></li>
+                    <li>Phone: <a href="tel:2247237780">224-723-7780</a></li>
+                    
+                </ul>
+                <ul>
+                    <li class="footer-title">LOCATION</li>
+                    <li>Location: 555 Osprey Ave, Hartford, MA</li>
+                </ul>
+                <ul>
+                    <li><a href="http://imgur.com/X8iUogF" title="View image of site map">SITE MAP</a></li>
+                    <li><a href="http://imgur.com/TrthaBc" title="View image of desktop wireframe">WIREFRAME</a></li>
+                    <li><a href="http://imgur.com/j7WIMBR" title="View image of mobile wireframe">MOBILE WIREFRAME</a></li>
+                </ul>
+                <ul>
+                    <li class="social"><a href="http://facebook.com" title="Link to Facebook account"><img src="Images/Facebook.png" width="50" height="50" alt="Facebook logo" title="Link to Facebook account"></a></li>
+                    <li class="social"><a href="http://instagram.com" title="Link to Instagram account"><img src="Images/Instagram.png" width="50" height="50" alt="Instagram logo" title="Link to Instagram account"></a></li>
+                    <li class="social"><a href="http://twitter.com" title="Link to Twitter account"><img src=Images/Twitter.png width="50" height="50" alt="Twitter logo" title="Link to Twitter account"></a></li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
