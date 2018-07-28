@@ -1,14 +1,11 @@
 # Summary
 This project was created for an introductory web design course.
 
-# Installation
-Download or clone the repository and open index.html
+# Preview
+You can preview the website [here](https://htmlpreview.github.io/?https://raw.githubusercontent.com/mbeiswenger/pine-website/master/index.html)
 
-# Screenshots
+# Screenshot
 
 <p align="center">
   <img src="https://i.imgur.com/crhk7BN.png">
-  <img src="https://i.imgur.com/anr0yxE.png">
-  <img src="https://i.imgur.com/kfCAqi2.png">
-  <img src="https://i.imgur.com/NPvi5YO.png">
 </p>
